@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npm install && cd CLIENT && npm install && npm run build",
-    "start": "node SERVER/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js",
+    "build": "npm i"
   },
   "author": "",
   "license": "ISC",
